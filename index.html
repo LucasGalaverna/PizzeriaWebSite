@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./src/styles/header.css">
+    <link rel="stylesheet" href="./src/styles/styles.css">
+    <link rel="stylesheet" href="src/styles/home.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="src/styles/menu.css">
+    <link rel="stylesheet" href="src/styles/review.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>CheezyPizza</title>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <img src="src/images/rb_2150237328-removebg-preview.png" id="nav_logo" alt="">
+
+            <ul id="nav_list">
+                <li class="nav-item active">
+                    <a href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#reviews">Reviews</a>
+                </li>
+            </ul>
+
+            <button class="btn-default">
+                <a href="tel:+555555555">Call Fast</a>
+            </button>
+
+            <button id="mobile_btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+
+        </nav>
+
+        <div id="mobile_menu">
+
+            <ul id="mobile_nav_list">
+                <li class="nav-item">
+                    <a href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#reviews">Reviews</a>
+                </li>
+            </ul>
+
+            <button class="btn-default">
+                <a href="tel:+555555555">Call Fast</a>
+            </button>
+
+        </div>
+    </header>
+    
+    <main id="content">
+        <section id="home">
+            <div class="shape"></div>
+            <div id="cta">
+                <h1 class="title">
+                    Every pizza tells a story—make
+                    <span>yours delicious</span>!
+                </h1>
+
+                <p class="description">
+                    We use only the freshest ingredients—hand-picked vegetables, premium meats, and top-quality cheeses—to create a pizza bursting with flavor. Every bite is crafted with care and passion.
+
+                </p>
+
+                <div id="cta_buttons">
+                    <a href="#menu" class="btn-default">
+                        See Menu
+                    </a>
+                    <a href="tel:+555555555" id="phone_button">
+                        <button class="btn-default">
+                            <i class="fa-solid fa-phone"></i>    
+                        </button>
+                        (11) 99234-3232
+                    </a>
+                </div>
+
+                <div class="social-media-buttons">
+                    <a href="https://www.instagram.com/lucasgalaverna1/">
+                        <i class="fa-brands fa-whatsapp"></i>
+
+                    </a>
+                    <a href="https://www.instagram.com/lucasgalaverna1/">
+                        <i class="fa-brands fa-instagram"></i>
+
+                    </a>
+                </div>
+
+            </div>
+
+            <div id="banner">
+
+                <img src="src/images/rb_2150174663.png" alt="">
+
+            </div>
+
+        </section>
+
+        <section id="menu">
+            <h2 class="section-title">Menu</h2>
+            <h3 class="section-subtitle">Our Specials Offers</h3>
+        
+            <div id="dishes">
+                <!-- Primeiro prato -->
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    <img src="src/images/rb_29042.png" class="dish-image1" alt="Dish 1">
+                    <h3 class="dish-title">Toscana</h3>
+                    <span class="dish-description">Lorem Ipsum</span>
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+                    <div class="dish-price">
+                        <h4>$10,00</h4>
+                    </div>
+                </div>
+        
+                <!-- Segundo prato -->
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    <img src="src/images/peperonni.png" class="dish-image1" alt="Dish 2">
+                    <h3 class="dish-title">Pepperoni</h3>
+                    <span class="dish-description">Lorem Ipsum</span>
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+                    <div class="dish-price">
+                        <h4>$8,99</h4>
+                    </div>
+                </div>
+        
+                <!-- Terceiro prato -->
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    <img src="src/images/portuguesa2.png" class="dish-image1" alt="Dish 3">
+                    <h3 class="dish-title">Portuguesa</h3>
+                    <span class="dish-description">Lorem Ipsum</span>
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+                    <div class="dish-price">
+                        <h4>$9,00</h4>
+                    </div>
+                </div>
+        
+                <!-- Quarto prato -->
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    <img src="src/images/dish2.png" class="dish-image1" alt="Dish 4">
+                    <h3 class="dish-title">European Sandwich</h3>
+                    <span class="dish-description">Lorem Ipsum</span>
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+                    <div class="dish-price">
+                        <h4>$4,00</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="reviews">
+
+            <img src="src/images/138665358_10398659.png" id="review_chef" alt="chef">
+            <img src="src/images/pizzaiolo-removebg-preview.png" id="banner_review"  alt="">
+
+            <div id="reviews_content">
+                <h2 class="section-title">Reviews</h2>
+                <h3 class="section-subtitle">talk about us</h3>
+
+                <div id="feedbacks">
+                    <div class="feedback">
+                        <img src="src/images/profilephoto2.JPG" class="feedback-avatar" alt="avatar1">
+                        <div class="feedback-content">
+                            <p>
+                                <strong>Luke Skywalker</strong>
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                                "My family and I approve!"
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="feedbacks">
+                    <div class="feedback">
+                        <img src="src/images/profilephoto.JPG" class="feedback-avatar" alt="avatar1">
+                        <div class="feedback-content">
+                            <p>
+                                <strong>Mary Monroe</strong>
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                                "Honestly, it's my favorite pizzeria at the moment."
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <a href="https://www.google.com/search?q=google+pizza+review&sca_esv=f014507a79619248&sxsrf=ADLYWIL7Hg0kza8PaeNIFpymAiW1UVmqYw%3A1735632287262&ei=n6VzZ8DbD9TA5OUP9sWq-Qw&ved=0ahUKEwiAp8WPxtGKAxVUILkGHfaiKs8Q4dUDCBE&uact=5&oq=google+pizza+review&gs_lp=Egxnd3Mtd2l6LXNlcnAiE2dvb2dsZSBwaXp6YSByZXZpZXcyBBAAGEcyBBAAGEcyBBAAGEdI7AdQ6gFY6gFwAXgCkAEAmAEAoAEAqgEAuAEDyAEA-AEBmAICoAIZwgIKEAAYsAMY1gQYR5gDAOIDBRIBMSBAiAYBkAYDkgcBMqAHAA&sclient=gws-wiz-serp"><button class="btn-default">See more reviews</button></a>
+            </div>
+
+        </section>
+        
+    </main>
+
+    <footer>
+        <img src="src/images/wave (1).svg" alt="wave">
+
+        <div id="footer_items">
+            <span id="copyright">
+                &copy 2024 Lucas Galaverna
+            </span>
+
+                   <div class="social-media-buttons">
+                    <a href="https://www.instagram.com/lucasgalaverna1/">
+                        <i class="fa-brands fa-whatsapp"></i>
+
+                    </a>
+                    <a href="https://www.instagram.com/lucasgalaverna1/">
+                        <i class="fa-brands fa-instagram"></i>
+
+                    </a>
+                </div>
+
+
+        </div>
+    </footer>
+
+    <script src="src/javascript/script.js"></script>
+    
+</body>
+</html>
